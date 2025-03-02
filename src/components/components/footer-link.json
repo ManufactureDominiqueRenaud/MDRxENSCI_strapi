@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_footer_links",
+  "info": {
+    "displayName": "FooterLink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string",
+      "required": true
+    },
+    "Url": {
+      "type": "string",
+      "required": true
+    },
+    "ExternalLink": {
+      "type": "boolean"
+    },
+    "Title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

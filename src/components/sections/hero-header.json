@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_hero_headers",
+  "info": {
+    "displayName": "Hero Header"
+  },
+  "options": {},
+  "attributes": {
+    "Logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Titre": {
+      "type": "string"
+    },
+    "slug_id": {
+      "type": "string"
+    }
+  }
+}
