@@ -1,22 +1,36 @@
 {
   "collectionName": "components_sections_hero_headers",
   "info": {
-    "displayName": "Hero Header"
+    "displayName": "heroHeader",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Logo": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images"
-      ],
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.footer-link",
+      "required": true
+    },
+    "backgroundImage": {
       "type": "media",
-      "multiple": false
-    },
-    "Titre": {
-      "type": "string"
-    },
-    "slug_id": {
-      "type": "string"
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }

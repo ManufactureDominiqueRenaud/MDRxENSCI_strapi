@@ -1,23 +1,23 @@
 {
   "collectionName": "components_components_footer_links",
   "info": {
-    "displayName": "FooterLink",
+    "displayName": "link",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Label": {
+    "label": {
       "type": "string",
       "required": true
     },
-    "Url": {
+    "url": {
       "type": "string",
       "required": true
     },
-    "ExternalLink": {
+    "externalLink": {
       "type": "boolean"
     },
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     }
