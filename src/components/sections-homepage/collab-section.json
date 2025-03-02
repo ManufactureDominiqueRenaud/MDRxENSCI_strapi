@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_homepage_collab_sections",
+  "info": {
+    "displayName": "collaboration",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "labelCtaDownloadPressArticle": {
+      "type": "string",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.footer-link",
+      "required": true
+    },
+    "pdfUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

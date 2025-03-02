@@ -28,13 +28,14 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "sections.hero-header"
+        "sections-homepage.hero-header",
+        "sections-homepage.atelier-projet",
+        "sections-homepage.collab-section",
+        "sections-homepage.dominique-renaud-section",
+        "sections-homepage.carousel-section",
+        "sections-homepage.mdr-details"
       ],
       "required": true
-    },
-    "anchorName": {
-      "type": "string",
-      "unique": true
     }
   }
 }

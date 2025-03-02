@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_homepage_dominique_renaud_sections",
+  "info": {
+    "displayName": "dominiqueRenaud",
+    "icon": "",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "citation": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "paragraph": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

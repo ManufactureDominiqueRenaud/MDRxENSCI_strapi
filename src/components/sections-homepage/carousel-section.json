@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_homepage_carousel_sections",
+  "info": {
+    "displayName": "carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "carouselImages": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
