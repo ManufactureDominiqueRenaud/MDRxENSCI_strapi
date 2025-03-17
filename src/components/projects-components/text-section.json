@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_projects_components_text_sections",
+  "info": {
+    "displayName": "textSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "paragraph1": {
+      "type": "text",
+      "required": false
+    },
+    "paragraph2": {
+      "type": "text"
+    },
+    "paragraph3": {
+      "type": "text"
+    },
+    "isGrayBackground": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

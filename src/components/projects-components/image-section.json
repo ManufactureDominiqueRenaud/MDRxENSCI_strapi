@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_projects_components_image_sections",
+  "info": {
+    "displayName": "imageSection"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "isGrayBackground": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_projects_components_two_images_sections",
+  "info": {
+    "displayName": "twoImagesSection"
+  },
+  "options": {},
+  "attributes": {
+    "image1": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "image2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "isGrayBackground": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

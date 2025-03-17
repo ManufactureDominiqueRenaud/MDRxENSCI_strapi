@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_projects_components_image_and_text_sections",
+  "info": {
+    "displayName": "imageAndTextSection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "paragraph1": {
+      "type": "text"
+    },
+    "paragraph2": {
+      "type": "text"
+    },
+    "paragraph3": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "isImageOnLeft": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "isGrayBackground": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}
