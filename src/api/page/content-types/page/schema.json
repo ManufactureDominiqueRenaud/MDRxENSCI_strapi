@@ -52,7 +52,8 @@
         "sections-homepage.collab-section",
         "sections-homepage.dominique-renaud-section",
         "sections-homepage.carousel-section",
-        "sections-homepage.mdr-details"
+        "sections-homepage.mdr-details",
+        "sections-homepage.project-folio"
       ],
       "required": true,
       "pluginOptions": {
