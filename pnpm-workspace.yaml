@@ -1,0 +1,9 @@
+onlyBuiltDependencies:
+  - '@strapi/strapi'
+  - better-sqlite3
+  - bufferutil
+  - core-js-pure
+  - es5-ext
+  - esbuild
+  - sharp
+  - utf-8-validate
