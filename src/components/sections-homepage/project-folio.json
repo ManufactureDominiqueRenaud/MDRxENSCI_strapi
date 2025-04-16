@@ -1,7 +1,8 @@
 {
   "collectionName": "components_sections_homepage_project_folios",
   "info": {
-    "displayName": "projectFolio"
+    "displayName": "projectFolio",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,12 @@
     },
     "paragraph": {
       "type": "string"
+    },
+    "paragraph2": {
+      "type": "text"
+    },
+    "paragraph3": {
+      "type": "text"
     }
   }
 }
